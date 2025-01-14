@@ -11,6 +11,7 @@ export function App() {
     <PrimeReactProvider>
       <BrowserRouter>
         <Routes>
+          <Route path="" element={<p>Hello World</p>} />
           <Route path="/crystal-roman-bracelet" element={<Bracelet />} />
           <Route path="/raincoat" element={<Raincoat />} />
         </Routes>
